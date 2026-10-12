@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# Secrets
+.env
+!.env.example
+
+# Data (not distributed with the repo; see README "Dataset")
+dataset/
+archive*/
+
+# Training / inference / evaluation outputs (checkpoints, sample grids, results)
+outputs/
+generated_samples/
+all_emotions/
+interpolations/
+evaluation/results.json
+evaluation/comparison_plots.png
+evaluation_results_*.txt
+
+# Data and model artifacts
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npy
+*.npz
+*.faiss
+*.mat
+*.zip
+*.mp4
